@@ -51,14 +51,20 @@ class pdfApi {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   // child: Center(
-                  //   // child: Text(
-                  //   //   " 📔 CARE PUBLIC SCHOOL \n                NEW DELHI",
+                  //   // child: Text
+                  //   //   " 📔 CARE( PUBLIC SCHOOL \n                NEW DELHI",
                   //   //   style: TextStyle(fontSize: 20),
                   //   // ),
                   // ),
                   child: Row(children: [
                     Container(
-                      child: Image()
+                      child: Image(MemoryImage(imgpng))
+                    ),
+                    Container(
+                      child: Text(
+                      "          CARE PUBLIC SCHOOL \n                NEW DELHI",
+                      style: TextStyle(fontSize: 20),
+                    ), 
                     )
                   ])
                 ),
